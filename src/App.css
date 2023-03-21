@@ -10,7 +10,10 @@
 }
 
 body {
-  background-color: var(--brown);
+  background-color: #000000;
+opacity: 0.9;
+background-image:  linear-gradient(#e0de63 3.7px, transparent 3.7px), linear-gradient(to right, #e0de63 3.7px, #000000 3.7px);
+background-size: 74px 74px;
 }
 
 /*header*/
