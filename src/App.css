@@ -1,3 +1,5 @@
+/*imports*/
+@import url(https://fonts.google.com/specimen/Audiowide?query=audio);
 :root {
   --light: #f5dacf;
   --orange: #CF7239;
@@ -11,12 +13,13 @@
 
 body {
   background-color: #000000;
-opacity: 0.9;
-background-image:  linear-gradient(#e0de63 3.7px, transparent 3.7px), linear-gradient(to right, #e0de63 3.7px, #000000 3.7px);
-background-size: 74px 74px;
+  opacity: 0.8;
+  background-image:  linear-gradient(#9ca509 3px, transparent 3px), linear-gradient(to right, #9ca509 3px, #000000 3px);
+  background-size: 50px 50px;
 }
 
 /*header*/
-nav {
-  background-color: var(--orange);
+header {
+  background-color: green;
+
 }
