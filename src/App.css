@@ -13,9 +13,9 @@
 
 body {
   background-color: #000000;
-  opacity: 0.8;
-  background-image:  linear-gradient(#9ca509 3px, transparent 3px), linear-gradient(to right, #9ca509 3px, #000000 3px);
-  background-size: 50px 50px;
+opacity: 0.8;
+background-image:  linear-gradient(#27f75e 3.5px, transparent 3.5px), linear-gradient(to right, #27f75e 3.5px, #000000 3.5px);
+background-size: 70px 70px;
 }
 
 /*header*/
