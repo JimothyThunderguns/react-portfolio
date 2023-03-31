@@ -1,4 +1,6 @@
-onst Header = ({ page, setPage }) => {
+import React from 'react'
+
+const Header = ({ page, setPage }) => {
     return (
         <header className="display-flex align-items-center">
 
@@ -17,4 +19,4 @@ onst Header = ({ page, setPage }) => {
     )
 }
 
-export default Header
+export default Header;

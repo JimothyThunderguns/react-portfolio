@@ -26,6 +26,33 @@ header {
 
 /*footer*/
 
-h1 {
-  color:azure;
+
+footer {
+  display: flex;
+  border-top: var(--border-header-footer);
+  background-color: var(--bg-header-footer);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  gap: 1em;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: .25em;
+}
+
+footer a {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+footer a:hover {
+  scale: 1.2;
 }

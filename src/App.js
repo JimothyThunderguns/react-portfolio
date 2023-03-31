@@ -1,13 +1,9 @@
+//components
 import { useState } from 'react';
 import './App.css';
-import './components/header';
-import './components/footer';
+import './components/Header';
+import './components/Footer';
 
-//pages
-import Home from './pages/home.js'
-import Portfolio from './pages/portfolio.js'
-import Contact from './pages/contact'
-import Resume from './pages/resume'
 
 //function
 function App() {
@@ -36,6 +32,7 @@ function App() {
     />
     { renderView() }
     <footer/>
+
   </>
 );
 }
